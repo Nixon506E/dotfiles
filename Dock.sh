@@ -1,0 +1,30 @@
+#!/bin/sh
+
+dockutil --no-restart --remove all
+dockutil --no-restart --add "/System/Library/CoreServices/Finder.app"
+dockutil --no-restart --add "/Applications/Safari.app"
+dockutil --no-restart --add "/Applications/Google Chrome.app"
+dockutil --no-restart --add "/Applications/Plexamp.app"
+dockutil --no-restart --add "/Applications/Pocket Casts.app"
+dockutil --no-restart --add "/Applications/Airmail 3.app"
+dockutil --no-restart --add "/Applications/Fantastical 2.app"
+dockutil --no-restart --add "/Applications/Reeder.app"
+dockutil --no-restart --add "/Applications/Twitterrific.app"
+dockutil --no-restart --add "/Applications/Slack.app"
+dockutil --no-restart --add "/Applications/Messages.app"
+dockutil --no-restart --add "/Applications/Sourcetree.app"
+dockutil --no-restart --add "/Applications/Xcode.app"
+dockutil --no-restart --add "/Applications/Android Studio.app"
+dockutil --no-restart --add "/Applications/Visual Studio.app"
+dockutil --no-restart --add "/Applications/Atom.app"
+dockutil --no-restart --add "/Applications/TeamSQL.app"
+dockutil --no-restart --add "/Applications/Paw.app"
+dockutil --no-restart --add "/Applications/Sketch.app"
+dockutil --no-restart --add "/Applications/Zeplin.app"
+dockutil --no-restart --add "/Applications/Agenda.app"
+dockutil --no-restart --add "/Applications/Deliveries.app"
+dockutil --no-restart --add "/Applications/Utilities/Activity Monitor.app"
+dockutil --no-restart --add "/Applications/iTerm.app"
+dockutil --no-restart --add "/Applications/System Preferences.app"
+
+killall Dock
